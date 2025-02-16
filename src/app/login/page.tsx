@@ -18,8 +18,8 @@ const Loginpage = () => {
 
   return (
     <div className='h-screen w-full flex items-center justify-center'>
-      <div className='bg-gray-200 mx-auto p-8 h-2/4 w-2/4'>
-            <button className='bg-black text-white py-1 rounded-2xl' onClick={LoginGoogle}>Login with google</button>
+      <div className='bg-gray-200 rounded-xl mx-auto p-4'>
+            <button className='bg-background hover:bg-slate-100 font-bold w-[300px] py-2 rounded-2xl' onClick={LoginGoogle}>Login with google</button>
       </div>
     </div>
   )
